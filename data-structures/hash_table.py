@@ -20,7 +20,7 @@ class HashTable:
     # If bucket is not taken O(1)
     # If it's taken then O(10) => O(1) until next index is found
     # If next index is not found then O(n) (linear probing) - O(?)
-    # I am not sure of time complexity when there's checking if empty, probing, rearranging, adding new values and mayby
+    # I am not sure of time complexity when there's : checking if empty, probing, rearranging, adding new values and mayby
     # a lot of probing. Time complexity pretty bad
     def add(self,key,value):
         hash_key = self.hash_func(key)
@@ -106,7 +106,7 @@ class HashTable:
     def self_size(self):
         return self.size
 
-# # TESTS
+# TESTS
 
 # ht = HashTable(10)
 # ht.add(10,"10")

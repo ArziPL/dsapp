@@ -98,7 +98,7 @@ class Array:
         return self.data
 
 
-## TESTS
+# TESTS
 
 # test = Array("Hello","World")
 # print(test)

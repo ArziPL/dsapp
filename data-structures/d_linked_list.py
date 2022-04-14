@@ -158,7 +158,8 @@ class Node:
         self.next = None
         self.prev = None
 
-# # TESTS
+# TESTS
+# NEED REWRITE
 
 # ll = DLinkedList(10, 20, 30, 40, 50)
 # print(ll)

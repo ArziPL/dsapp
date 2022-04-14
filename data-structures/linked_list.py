@@ -117,7 +117,8 @@ class Node:
         self.data = data
         self.next = None
 
-# # TESTS
+# TESTS
+# NEED REWRITE
 
 # ll = LinkedList(10,20,30)
 # print(ll)
@@ -130,3 +131,5 @@ class Node:
 # print(ll.search(23))
 # ll.traverse()
 # print(ll)
+
+ll = LinkedList(10)
