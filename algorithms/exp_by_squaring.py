@@ -11,7 +11,7 @@ def exp_by_squaring(a, n): # a^n
             return x*x
         else:
             return a * exp_by_squaring(a,n - 1) # 2^101 = 2^1 * (2^50 * 2^50) - we subtract 1 from odd exponents, do the trick 
-                                                # andpass to algorithm 2^100 which efficiently do exponentiation as above, and 
+                                                # and pass to algorithm 2^100 which efficiently do exponentiation as above, and 
                                                 # then multiply by one we subtracted so 2^100 * 2^1 = 2^101
 print("17^1 = ",exp_by_squaring(17,0))
 print("17^1 = ",exp_by_squaring(17,1))
