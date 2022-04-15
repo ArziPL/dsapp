@@ -5,10 +5,39 @@ def insertion_sort(arr:list):
     for i in range(1,n):
         key = arr[i]
         j = i - 1
-        while j >= 0 and key < arr[j]:
-            arr[j + 1] = arr[j]
+        while j >= 0 and key < arr[j]: # find value j that is minimally bigger then key,
+            arr[j+1] = arr[j]          # put that j at j+1 and then at j put key (a[j+1] = a[j] because we first subtract 1)
             j = j - 1
-        arr[j + 1] = key
+        arr[j + 1] = key # almost like arr[j]
 
 insertion_sort(to_sort)
 print(to_sort)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def insertion_sort(arr:list):
+    n = len(arr)
+    for i in range(1,n):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]: # find value j that is minimally bigger then key,
+            arr[j+1] = arr[j]          # put that j at j+1 and then at j put key (a[j+1] = a[j] because we first subtract 1)
+            j = j - 1
+        arr[j + 1] = key # almost like arr[j]
