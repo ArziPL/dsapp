@@ -1,4 +1,8 @@
 import math
+# Take sorted list and check if searched value is greater/lower then 
+# middle value (floor avg), then cut other half of list, and repeat 
+# unitl there's 1 element
+
 
 primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
