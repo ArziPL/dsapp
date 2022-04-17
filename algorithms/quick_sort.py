@@ -1,3 +1,8 @@
+# Best : O(n*log n) - it can get very/bad good depends on good pivot point
+# Avg : O(n*log n)
+# Worst O(n^2)
+# Space worst : O(log n) 
+
 import math
 
 to_sort = [52,63,12,6,631,6,24,637,64,421,74,124,0,-5,523,-10,-529]

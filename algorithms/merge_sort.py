@@ -1,8 +1,13 @@
+# Best : O(n*log n) - because we divide in half everytime even with big inputs it's kinda effective
+# Avg : O(n*log n)
+# Worst O(n*log n)
+# Space worst : O(n) 
+
+# Trust me, you know as much as me what's happening here
+
 import math
 
 to_sort = [52,63,12,6,631,6,24,637,64,421,74,124,0,-5,523,-10,-529]
-
-# Trust me, you know as much as me what's happening here
 
 def merge_sort(arr:list): # O(n*Log n) - almost always the same time, because we divide in halves 
     if len(arr) == 1:

@@ -1,12 +1,15 @@
-import math
+# Avg O(log(n)), worst when value at end of list/outside of list
+
 # Take sorted list and check if searched value is greater/lower then 
 # middle value (floor avg), then cut other half of list, and repeat 
 # unitl there's 1 element
 
 
+import math
+
 primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
-def binary_search(arr:list,num): # Avg O(log(n)), worst when value at end of list/outside of list
+def binary_search(arr:list,num):
     min = 0
     max = len(arr) - 1
     avg = 0

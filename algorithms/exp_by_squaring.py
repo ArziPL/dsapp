@@ -1,3 +1,4 @@
+# O(log n) - but i don't know really why
 # a = int(input()) # base of the power
 # n = int(input()) # exponent (a^n, a**n)
 
