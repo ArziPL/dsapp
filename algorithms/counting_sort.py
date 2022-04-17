@@ -1,7 +1,7 @@
 to_sort = [52,63,12,6,631,6,24,637,64,421,74,124,0,-5,523,-10,-529]
 
 def counting_sort(arr:list): # It seems like O(3n) => O(n) but it can get very bad quickly if numbers are big(or very small)
-                             # Aswell without negatives it should go so much faster
+                             # Aswell without negatives it should go so much faster 
 
 
     positive_list = [0] * (max(to_sort)+1)
