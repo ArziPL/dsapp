@@ -1,6 +1,7 @@
 # perfect_number - O(n) - check if number is perfect, if sum of all num divisors without itself give num
-# optimized_perfect_number - O(sqrt(n)) - if i divide num then num/i = k which divides num as well, so we need to check only
-# numbers from 1 to sqrt(n)
+# optimized_perfect_number - O(sqrt(n)) - if x divide n then n/x = y which divides n as well, so we need to check only
+# numbers from 1 to sqrt(n). sqrt(n) is border because sqrt(n) * sqrt(n) gives n, which then implies that values after 
+# sqrt(n) need to be multiplied by values lesser then sqrt(n) which we already checked
 
 def perfect_number(num):
     sum = 0

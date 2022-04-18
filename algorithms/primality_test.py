@@ -1,8 +1,9 @@
 # primality_test - O(n) check every number apart from 1 and number itself,
 # if number%any from (2,itself) gives 0 then number is not prime
 
-# optimized_primality_test : O(sqrt(n)) - if i divide num then num/i = k which divides num as well, so we need to check only
-# numbers from 1 to sqrt(n)
+# optimized_primality_test : O(sqrt(n)) - if x divide n then n/x = y which divides n as well, so we need to check only
+# numbers from 1 to sqrt(n). sqrt(n) is border because sqrt(n) * sqrt(n) gives n, which then implies that values after 
+# sqrt(n) need to be multiplied by values lesser then sqrt(n) which we already checked
 
 
 def primality_test(num):
