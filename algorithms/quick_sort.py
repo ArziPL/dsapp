@@ -3,6 +3,7 @@
 # Worst O(n^2)
 # Space worst : O(log n) 
 
+# We find some pivot point, and from that recursivly call quick_sort on left side of pivot point and right side
 import math
 
 to_sort = [52,63,12,6,631,6,24,637,64,421,74,124,0,-5,523,-10,-529]
